@@ -33,7 +33,8 @@ main() {
 
   final context = {
     param.BUNGIE_CLIENT: new BungieClient(_getConfigValue('BUNGIE_API_KEY')),
-    param.BUNGIE_CLAN_ID: _getConfigValue('BUNGIE_CLAN_ID')
+    param.BUNGIE_CLAN_ID: _getConfigValue('BUNGIE_CLAN_ID'),
+    param.DATABASE_URL: _getConfigValue('DATABASE_URL')
   };
 
   final commandRouter = router()..get('/grimoire', grimoire.handle);
