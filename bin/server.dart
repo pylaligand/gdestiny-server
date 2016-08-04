@@ -47,6 +47,12 @@ main() {
     return (shelf.Request request) {
       return handler(request.change(context: context));
     };
+  }).addMiddleware((shelf.Handler handler) {
+    // Add access control headers.
+    return (shelf.Request request) async {
+      final shelf.Response response = await handler(request);
+      return response.change(headers: {'Access-Control-Allow-Origin': '*'});
+    };
   }).addHandler(commandRouter.handler);
 
   runZoned(() {
