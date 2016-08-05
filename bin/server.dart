@@ -11,6 +11,7 @@ import 'package:shelf_route/shelf_route.dart';
 
 import '../lib/grimoire.dart' as grimoire;
 import '../lib/params.dart' as param;
+import '../lib/triumphs.dart' as triumphs;
 
 /// Returns the value for [name] in the server configuration.
 String _getConfigValue(String name) {
@@ -37,7 +38,9 @@ main() {
     param.DATABASE_URL: _getConfigValue('DATABASE_URL')
   };
 
-  final commandRouter = router()..get('/grimoire', grimoire.handle);
+  final commandRouter = router()
+    ..get('/grimoire', grimoire.handle)
+    ..get('/triumphs', triumphs.handle);
 
   final handler = const shelf.Pipeline()
       .addMiddleware(

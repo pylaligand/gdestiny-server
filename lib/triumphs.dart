@@ -9,25 +9,19 @@ import 'package:shelf/shelf.dart' as shelf;
 import 'params.dart' as param;
 import 'schema.dart';
 
-/// Handles requests for grimoire score.
+/// Handles requests for MoT progress.
 Future<shelf.Response> handle(shelf.Request request) async {
   final params = request.context;
-  final content = {
-    'max-grimoire': {'xb': 4980, 'ps': 5020}
-  };
   final db = await connect(params[param.DATABASE_URL]);
-  final scores = await db
-      .query(
-          'SELECT * FROM ${Schema.TABLE_MAIN} ORDER BY ${Schema.MAIN_GRIMOIRE} DESC')
-      .map((row) {
-    final columns = row.toMap();
-    return {
-      'name': columns[Schema.MAIN_GAMERTAG],
-      'grimoire': columns[Schema.MAIN_GRIMOIRE],
-      'platform': columns[Schema.MAIN_ON_XBOX] ? 'xb' : 'ps'
-    };
-  }).toList();
-  content['data'] = scores;
+  final rows = await db.query('SELECT * FROM ${Schema.TABLE_MAIN}').toList();
+  final tiers =
+      new Set.from(rows.map((row) => row.toMap()[Schema.MAIN_MOT_PROGRESS]));
+  final content = new Map.fromIterable(tiers,
+      key: (tier) => tier.toString(),
+      value: (tier) => rows
+          .where((row) => row.toMap()[Schema.MAIN_MOT_PROGRESS] == tier)
+          .map((row) => row.toMap()[Schema.MAIN_GAMERTAG])
+          .toList());
   final body = JSON.encode(content);
   final headers = {'content-type': 'application/json'};
   return new shelf.Response.ok(body, headers: headers);
