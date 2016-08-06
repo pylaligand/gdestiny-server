@@ -13,7 +13,12 @@ import 'schema.dart';
 Future<shelf.Response> handle(shelf.Request request) async {
   final params = request.context;
   final db = await connect(params[param.DATABASE_URL]);
-  final rows = await db.query('SELECT * FROM ${Schema.TABLE_MAIN}').toList();
+  List<Row> rows;
+  try {
+    rows = await db.query('SELECT * FROM ${Schema.TABLE_MAIN}').toList();
+  } finally {
+    db.close();
+  }
   final tiers =
       new Set.from(rows.map((row) => row.toMap()[Schema.MAIN_MOT_PROGRESS]));
   final content = new Map.fromIterable(tiers,
