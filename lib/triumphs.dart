@@ -24,9 +24,14 @@ Future<shelf.Response> handle(shelf.Request request) async {
   final content = new Map.fromIterable(tiers,
       key: (tier) => tier.toString(),
       value: (tier) => rows
-          .where((row) => row.toMap()[Schema.MAIN_MOT_PROGRESS] == tier)
-          .map((row) => row.toMap()[Schema.MAIN_GAMERTAG])
-          .toList());
+              .where((row) => row.toMap()[Schema.MAIN_MOT_PROGRESS] == tier)
+              .map((row) {
+            final columns = row.toMap();
+            return {
+              'name': columns[Schema.MAIN_GAMERTAG],
+              'platform': columns[Schema.MAIN_ON_XBOX] ? 'xb' : 'ps'
+            };
+          }).toList());
   final body = JSON.encode(content);
   final headers = {'content-type': 'application/json'};
   return new shelf.Response.ok(body, headers: headers);
