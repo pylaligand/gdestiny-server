@@ -7,6 +7,7 @@ import 'package:bungie_client/bungie_client.dart';
 import 'package:logging/logging.dart';
 import 'package:postgresql/postgresql.dart';
 
+import '../lib/guardian_gg_client.dart';
 import '../lib/schema.dart';
 
 const _MEMBER_ACTIVITY_THRESHOLD = const Duration(days: 30 * 6);
@@ -18,8 +19,9 @@ class Guardian {
   final ClanMember member;
   final Profile profile;
   final int motProgress;
+  final Stats pvpStats;
 
-  Guardian(this.member, this.profile, this.motProgress);
+  Guardian(this.member, this.profile, this.motProgress, this.pvpStats);
 }
 
 /// Returns the value for [name] in the server configuration.
@@ -32,17 +34,19 @@ String _getConfigValue(String name) {
 }
 
 /// Loads the list of clan members with basic info.
-Future<List<Guardian>> _getGuardians(BungieClient client, String clanId) async {
+Future<List<Guardian>> _getGuardians(BungieClient bungieClient,
+    GuardianGgClient gggClient, String clanId) async {
   final cutoff = new DateTime.now().subtract(_MEMBER_ACTIVITY_THRESHOLD);
   Future<List<Guardian>> loadPlatformGuardians(bool onXbox) async {
-    final members = await client.getClanRoster(clanId, onXbox);
+    final members = await bungieClient.getClanRoster(clanId, onXbox);
     return (await Future.wait(members.map((member) async {
-      final profile = await client.getPlayerProfile(member.id);
+      final profile = await bungieClient.getPlayerProfile(member.id);
       if (profile.lastPlayedCharacter.lastPlayed.isBefore(cutoff)) {
         return null;
       }
-      final motProgress = await client.getTriumphsProgress(member.id);
-      return new Guardian(member, profile, motProgress);
+      final motProgress = await bungieClient.getTriumphsProgress(member.id);
+      final pvpStats = await gggClient.getPvPStats(member.id.token);
+      return new Guardian(member, profile, motProgress, pvpStats);
     })))
         .where((guardian) => guardian != null)
         .toList();
@@ -60,7 +64,9 @@ _createMainTable(Connection db, List<Guardian> guardians) async {
       '${Schema.MAIN_GAMERTAG} TEXT, '
       '${Schema.MAIN_GRIMOIRE} BIGINT, '
       '${Schema.MAIN_ON_XBOX} BOOLEAN, '
-      '${Schema.MAIN_MOT_PROGRESS} BIGINT)');
+      '${Schema.MAIN_MOT_PROGRESS} BIGINT, '
+      '${Schema.MAIN_PVP_KD} FLOAT4, '
+      '${Schema.MAIN_PVP_WIN_PERCENTAGE} INTEGER)');
   await Future.forEach(
       guardians,
       (Guardian guardian) async =>
@@ -68,7 +74,9 @@ _createMainTable(Connection db, List<Guardian> guardians) async {
               '\$\$${guardian.member.gamertag}\$\$, '
               '${guardian.profile.grimoire}, '
               '${guardian.member.onXbox ? 'TRUE' : 'FALSE'}, '
-              '${guardian.motProgress})'));
+              '${guardian.motProgress}, '
+              '${guardian.pvpStats.kd}, '
+              '${guardian.pvpStats.winPercentage})'));
   _log.info('Main table complete');
 }
 
@@ -78,11 +86,13 @@ main() async {
     print('${rec.level.name}: ${rec.time}: ${rec.loggerName}: ${rec.message}');
   });
   final clanId = _getConfigValue('BUNGIE_CLAN_ID');
-  final client = new BungieClient(_getConfigValue('BUNGIE_API_KEY'));
+  final bungieClient = new BungieClient(_getConfigValue('BUNGIE_API_KEY'));
+  final guardianGgClient = new GuardianGgClient();
   final db = await connect(_getConfigValue('DATABASE_URL'));
   try {
     _log.info('Loading guardian data...');
-    final guardians = await _getGuardians(client, clanId);
+    final guardians =
+        await _getGuardians(bungieClient, guardianGgClient, clanId);
     final xbCount =
         guardians.where((guardian) => guardian.member.onXbox).length;
     final psCount =
