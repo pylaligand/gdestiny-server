@@ -23,6 +23,14 @@ Future<shelf.Response> handle(shelf.Request request) async {
       'xb': await _getAverageTriumphsCompletion(db, true),
       'ps': await _getAverageTriumphsCompletion(db, false)
     };
+    content['kd'] = {
+      'xb': await _getAverageKd(db, true),
+      'ps': await _getAverageKd(db, false)
+    };
+    content['win_percentage'] = {
+      'xb': await _getAverageWinPercentage(db, true),
+      'ps': await _getAverageWinPercentage(db, false)
+    };
   } finally {
     db.close();
   }
@@ -46,6 +54,26 @@ Future<int> _getAverageTriumphsCompletion(Connection db, bool onXbox) async {
   final row = await db
       .query(
           'SELECT AVG(${Schema.MAIN_MOT_PROGRESS}) FROM ${Schema.TABLE_MAIN} WHERE ${_getPlatformSelector(onXbox)} AND ${Schema.MAIN_MOT_PROGRESS}!=0')
+      .first;
+  return num.parse(row[0]).round();
+}
+
+/// Returns the average K/D ratio for the given platform.
+/// This excludes guardians who have not played PvP in the current season.
+Future<double> _getAverageKd(Connection db, bool onXbox) async {
+  final row = await db
+      .query(
+          'SELECT AVG(${Schema.MAIN_PVP_KD}) FROM ${Schema.TABLE_MAIN} WHERE ${_getPlatformSelector(onXbox)} AND ${Schema.MAIN_PVP_KD}!=0')
+      .first;
+  return (100 * row[0]).round() / 100;
+}
+
+/// Returns the average win percentage for the given platform.
+/// This excludes guardians who have not played PvP in the current season.
+Future<int> _getAverageWinPercentage(Connection db, bool onXbox) async {
+  final row = await db
+      .query(
+          'SELECT AVG(${Schema.MAIN_PVP_WIN_PERCENTAGE}) FROM ${Schema.TABLE_MAIN} WHERE ${_getPlatformSelector(onXbox)} AND ${Schema.MAIN_PVP_WIN_PERCENTAGE}!=0')
       .first;
   return num.parse(row[0]).round();
 }

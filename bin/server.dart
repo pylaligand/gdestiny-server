@@ -10,9 +10,11 @@ import 'package:shelf/shelf_io.dart' as io;
 import 'package:shelf_route/shelf_route.dart';
 
 import '../lib/grimoire.dart' as grimoire;
+import '../lib/kd.dart' as kd;
 import '../lib/params.dart' as param;
 import '../lib/summary.dart' as summary;
 import '../lib/triumphs.dart' as triumphs;
+import '../lib/wins.dart' as wins;
 
 /// Returns the value for [name] in the server configuration.
 String _getConfigValue(String name) {
@@ -42,7 +44,9 @@ main() {
   final commandRouter = router()
     ..get('/grimoire', grimoire.handle)
     ..get('/triumphs', triumphs.handle)
-    ..get('/summary', summary.handle);
+    ..get('/summary', summary.handle)
+    ..get('/kd', kd.handle)
+    ..get('/wins', wins.handle);
 
   final handler = const shelf.Pipeline()
       .addMiddleware(
