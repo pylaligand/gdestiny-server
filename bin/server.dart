@@ -11,6 +11,7 @@ import 'package:shelf_route/shelf_route.dart';
 
 import '../lib/grimoire.dart' as grimoire;
 import '../lib/params.dart' as param;
+import '../lib/summary.dart' as summary;
 import '../lib/triumphs.dart' as triumphs;
 
 /// Returns the value for [name] in the server configuration.
@@ -40,7 +41,8 @@ main() {
 
   final commandRouter = router()
     ..get('/grimoire', grimoire.handle)
-    ..get('/triumphs', triumphs.handle);
+    ..get('/triumphs', triumphs.handle)
+    ..get('/summary', summary.handle);
 
   final handler = const shelf.Pipeline()
       .addMiddleware(
