@@ -65,7 +65,8 @@ Future<double> _getAverageKd(Connection db, bool onXbox) async {
       .query(
           'SELECT AVG(${Schema.MAIN_PVP_KD}) FROM ${Schema.TABLE_MAIN} WHERE ${_getPlatformSelector(onXbox)} AND ${Schema.MAIN_PVP_KD}!=0')
       .first;
-  return (100 * row[0]).round() / 100;
+  final String average = row[0];
+  return average != null ? (100 * num.parse(average)).round() / 100 : 0.0;
 }
 
 /// Returns the average win percentage for the given platform.
@@ -75,7 +76,8 @@ Future<int> _getAverageWinPercentage(Connection db, bool onXbox) async {
       .query(
           'SELECT AVG(${Schema.MAIN_PVP_WIN_PERCENTAGE}) FROM ${Schema.TABLE_MAIN} WHERE ${_getPlatformSelector(onXbox)} AND ${Schema.MAIN_PVP_WIN_PERCENTAGE}!=0')
       .first;
-  return num.parse(row[0]).round();
+  final String average = row[0];
+  return average != null ? num.parse(average).round() : 0;
 }
 
 String _getPlatformSelector(bool onXbox) {
