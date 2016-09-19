@@ -12,8 +12,8 @@ import 'schema.dart';
 /// Handles requests for grimoire score.
 Future<shelf.Response> handle(shelf.Request request) async {
   final params = request.context;
-  const maxXbScore = 4980;
-  const maxPsScore = 5020;
+  const maxXbScore = 5115;
+  const maxPsScore = 5155;
   final content = {
     'max-grimoire': {'xb': maxXbScore, 'ps': maxPsScore}
   };
