@@ -13,6 +13,7 @@ import '../lib/grimoire.dart' as grimoire;
 import '../lib/kd.dart' as kd;
 import '../lib/params.dart' as param;
 import '../lib/summary.dart' as summary;
+import '../lib/tourney.dart' as tourney;
 import '../lib/triumphs.dart' as triumphs;
 import '../lib/wins.dart' as wins;
 
@@ -46,7 +47,8 @@ main() {
     ..get('/triumphs', triumphs.handle)
     ..get('/summary', summary.handle)
     ..get('/kd', kd.handle)
-    ..get('/wins', wins.handle);
+    ..get('/wins', wins.handle)
+    ..get('/tourney', tourney.handle);
 
   final handler = const shelf.Pipeline()
       .addMiddleware(

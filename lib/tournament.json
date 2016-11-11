@@ -1,0 +1,532 @@
+{
+  "teams": [
+    {
+      "id": "A",
+      "name": "Game of Thorns",
+      "players": [
+        {
+          "destinyId": "4611686018438523541",
+          "name": "fathert0m",
+          "class": "Titan",
+          "captain": true
+        },
+        {
+          "destinyId": "4611686018444174393",
+          "name": "mscherme",
+          "class": "Hunter"
+        },
+        {
+          "destinyId": "4611686018442068988",
+          "name": "hawkbatt",
+          "class": "Warlock"
+        },
+        {
+          "destinyId": "4611686018437138107",
+          "name": "jjsilo",
+          "class": "Hunter"
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "name": "Felwinter is Coming",
+      "players": [
+        {
+          "destinyId": "4611686018442080876",
+          "name": "etennis07",
+          "class": "Titan",
+          "captain": true
+        },
+        {
+          "destinyId": "4611686018444775900",
+          "name": "DJG0509",
+          "class": "Hunter"
+        },
+        {
+          "destinyId": "4611686018446138239",
+          "name": "n0rmaln0rman",
+          "class": "Hunter"
+        },
+        {
+          "destinyId": "4611686018433876772",
+          "name": "Bionyx187",
+          "class": "Warlock"
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "name": "Team Blueberry",
+      "players": [
+        {
+          "destinyId": "4611686018431738387",
+          "name": "xx New Guy xx",
+          "class": "Titan"
+        },
+        {
+          "destinyId": "4611686018433234607",
+          "name": "badassler",
+          "class": "Hunter",
+          "captain": true
+        },
+        {
+          "destinyId": "4611686018453306041",
+          "name": "Aizdaman",
+          "class": "Warlock"
+        },
+        {
+          "destinyId": "4611686018434229973",
+          "name": "ViperSSD",
+          "class": "Titan"
+        }
+      ]
+    },
+    {
+      "id": "D",
+      "name": "Shotgun Buffalo's",
+      "players": [
+        {
+          "destinyId": "4611686018438083930",
+          "name": "Mauddib1017",
+          "class": "Warlock",
+          "captain": true
+        },
+        {
+          "destinyId": "4611686018430470066",
+          "name": "Dreamforge",
+          "class": "Hunter"
+        },
+        {
+          "destinyId": "4611686018442949590",
+          "name": "chiva online",
+          "class": "Warlock"
+        },
+        {
+          "destinyId": "4611686018431858273",
+          "name": "Sch00t3r",
+          "class": "Titan"
+        }
+      ]
+    },
+    {
+      "id": "E",
+      "name": "Team /dev/null",
+      "players": [
+        {
+          "destinyId": "4611686018429620157",
+          "name": "Lord Infernus",
+          "class": "Titan"
+        },
+        {
+          "destinyId": "4611686018450798315",
+          "name": "TXT4NRG",
+          "class": "Warlock",
+          "captain": true
+        },
+        {
+          "destinyId": "4611686018452292833",
+          "name": "TheMikhail",
+          "class": "Hunter"
+        },
+        {
+          "destinyId": "4611686018429731545",
+          "name": "ME4T",
+          "class": "Warlock"
+        }
+      ]
+    },
+    {
+      "id": "F",
+      "name": "Team Fabulous",
+      "players": [
+        {
+          "destinyId": "4611686018429732011",
+          "name": "kevmanx"
+        },
+        {
+          "destinyId": "4611686018438304393",
+          "name": "Greggoth"
+        },
+        {
+          "destinyId": "4611686018435769931",
+          "name": "teawithtanya"
+        },
+        {
+          "destinyId": "4611686018437081761",
+          "name": "Katz 29M"
+        }
+      ]
+    }
+  ],
+  "round-robin": [
+    [
+       {
+         "alpha": "F",
+         "bravo": "A",
+         "modifiers": [
+           "melting-pot",
+           "electric-boogaloo",
+           "multi-tool"
+         ],
+         "playlists": [
+           "Skirmish",
+           "Elimination",
+           "Salvage"
+         ],
+         "maps": [
+           "Shores of Time",
+           "Bannerfall",
+           "Rusted Lands"
+         ]
+       },
+       {
+         "alpha": "E",
+         "bravo": "B",
+         "modifiers": [
+           "multi-tool",
+           "praise-sun",
+           "electric-boogaloo"
+         ],
+         "playlists": [
+           "Skirmish",
+           "Elimination",
+           "Salvage"
+         ],
+         "maps": [
+           "The Timekeeper",
+           "The Drifter",
+           "Exodus Blue"
+         ]
+       },
+       {
+         "alpha": "D",
+         "bravo": "C",
+         "modifiers": [
+           "stormtroopers",
+           "standard-issue",
+           "electric-boogaloo"
+         ],
+         "playlists": [
+           "Skirmish",
+           "Elimination",
+           "Salvage"
+         ],
+         "maps": [
+           "Memento",
+           "The Drifter",
+           "The Last Exit"
+         ]
+       }
+     ],
+     [
+       {
+         "alpha": "E",
+         "bravo": "A",
+         "modifiers": [
+           "stormtroopers",
+           "inferno",
+           "multi-tool"
+         ],
+         "playlists": [
+           "Skirmish",
+           "Elimination",
+           "Salvage"
+         ],
+         "maps": [
+           "Memento",
+           "Bannerfall",
+           "Blind Watch"
+         ]
+       },
+       {
+         "alpha": "D",
+         "bravo": "F",
+         "modifiers": [
+           "inferno",
+           "dark-side",
+           "melting-pot"
+         ],
+         "playlists": [
+           "Elimination",
+           "Skirmish",
+           "Salvage"
+         ],
+         "maps": [
+           "Pantheon",
+           "Anomaly",
+           "Twilight Gap"
+         ]
+       },
+       {
+         "alpha": "B",
+         "bravo": "C",
+         "modifiers": [
+           "dark-side",
+           "standard-issue",
+           "multi-tool"
+         ],
+         "playlists": [
+           "Skirmish",
+           "Salvage",
+           "Elimination"
+         ],
+         "maps": [
+           "Shores of Time",
+           "Rusted Lands",
+           "Burning Shrine"
+         ]
+       }
+     ],
+     [
+       {
+         "alpha": "A",
+         "bravo": "D",
+         "modifiers": [
+           "multi-tool",
+           "standard-issue",
+           "praise-sun"
+         ],
+         "playlists": [
+           "Elimination",
+           "Skirmish",
+           "Salvage"
+         ],
+         "maps": [
+           "Burning Shrine",
+           "Anomaly",
+           "Blind Watch"
+         ]
+       },
+       {
+         "alpha": "E",
+         "bravo": "C",
+         "modifiers": [
+           "stormtroopers",
+           "inferno",
+           "multi-tool"
+         ],
+         "playlists": [
+           "Elimination",
+           "Skirmish",
+           "Salvage"
+         ],
+         "maps": [
+           "Pantheon",
+           "Shores of Time",
+           "Firebase Delphi"
+         ]
+       },
+       {
+         "alpha": "B",
+         "bravo": "F",
+         "modifiers": [
+           "melting-pot",
+           "praise-sun",
+           "standard-issue"
+         ],
+         "playlists": [
+           "Skirmish",
+           "Elimination",
+           "Salvage"
+         ],
+         "maps": [
+           "Shores of Time",
+           "Floating Gardens",
+           "The Dungeons"
+         ]
+       }
+     ],
+     [
+       {
+         "alpha": "C",
+         "bravo": "A",
+         "modifiers": [
+           "stormtroopers",
+           "dark-side",
+           "multi-tool"
+         ],
+         "playlists": [
+           "Salvage",
+           "Elimination",
+           "Skirmish"
+         ],
+         "maps": [
+           "The Dungeons",
+           "Asylum",
+           "Crossroads"
+         ]
+       },
+       {
+         "alpha": "B",
+         "bravo": "D",
+         "modifiers": [
+           "praise-sun",
+           "inferno",
+           "standard-issue"
+         ],
+         "playlists": [
+           "Elimination",
+           "Skirmish",
+           "Salvage"
+         ],
+         "maps": [
+           "Burning Shrine",
+           "Anomaly",
+           "Twilight Gap"
+         ]
+       },
+       {
+         "alpha": "F",
+         "bravo": "E",
+         "modifiers": [
+           "stormtroopers",
+           "standard-issue",
+           "multi-tool"
+         ],
+         "playlists": [
+           "Skirmish",
+           "Salvage",
+           "Elimination"
+         ],
+         "maps": [
+           "Crossroads",
+           "Exodus Blue",
+           "Floating Gardens"
+         ]
+       }
+     ],
+     [
+       {
+         "alpha": "A",
+         "bravo": "B",
+         "modifiers": [
+           "melting-pot",
+           "multi-tool",
+           "stormtroopers"
+         ],
+         "playlists": [
+           "Elimination",
+           "Salvage",
+           "Skirmish"
+         ],
+         "maps": [
+           "Pantheon",
+           "The Last Exit",
+           "Widow's Court"
+         ]
+       },
+       {
+         "alpha": "F",
+         "bravo": "C",
+         "modifiers": [
+           "electric-boogaloo",
+           "standard-issue",
+           "praise-sun"
+         ],
+         "playlists": [
+           "Skirmish",
+           "Salvage",
+           "Elimination"
+         ],
+         "maps": [
+           "Anomaly",
+           "Exodus Blue",
+           "The Cauldron"
+         ]
+       },
+       {
+         "alpha": "D",
+         "bravo": "E",
+         "modifiers": [
+           "stormtroopers",
+           "standard-issue",
+           "electric-boogaloo"
+         ],
+         "playlists": [
+           "Salvage",
+           "Skirmish",
+           "Elimination"
+         ],
+         "maps": [
+           "Thieve's Den",
+           "The Timekeeper",
+           "Frontier"
+         ]
+       }
+     ]
+  ],
+  "modifiers": [
+    {
+      "id": "melting-pot",
+      "name": "Melting Pot",
+      "description": "Teams must have at least one subclass of each element"
+    },
+    {
+      "id": "praise-sun",
+      "name": "Praise the Sun",
+      "description": "All players must use a solar subclass"
+    },
+    {
+      "id": "electric-boogaloo",
+      "name": "Electric Boogaloo",
+      "description": "All players must use an arc subclass"
+    },
+    {
+      "id": "dark-side",
+      "name": "The Dark Side",
+      "description": "All players must use a void subclass"
+    },
+    {
+      "id": "multi-tool",
+      "name": "Multi-tool",
+      "description": "Teams may only use at most one weapon of each type (one person cannot use heavy at all)"
+    },
+    {
+      "id": "stormtroopers",
+      "name": "Stormtroopers",
+      "description": "All team members must pick the same weapon types (e.g. auto - shotgun - sword)"
+    },
+    {
+      "id": "standard-issue",
+      "name": "Standard Issue",
+      "description": "No exotic equipment (weapons and armor) is allowed"
+    },
+    {
+      "id": "inferno",
+      "name": "Inferno",
+      "description": "The standard Destiny Inferno modifier"
+    }
+  ],
+  "maps": {
+    "Salvage": [
+      "Twilight Gap",
+      "Rusted Lands",
+      "Exodus Blue",
+      "Blind Watch",
+      "Firebase Delphi",
+      "Thieve's Den",
+      "The Last Exit",
+      "The Dungeons"
+    ],
+    "Elimination": [
+      "Bannerfall",
+      "Pantheon",
+      "Frontier",
+      "The Cauldron",
+      "Asylum",
+      "Burning Shrine",
+      "The Drifter",
+      "Floating Gardens"
+    ],
+    "Skirmish": [
+      "Memento",
+      "Anomaly",
+      "Widow's Court",
+      "Black Shield",
+      "Crossroads",
+      "Shores of Time",
+      "The Timekeeper",
+      "Vertigo"
+    ]
+  }
+}
