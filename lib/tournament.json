@@ -137,23 +137,28 @@
     },
     {
       "id": "F",
-      "name": "Team Fabulous",
+      "name": "Team Bubblegum",
       "players": [
         {
           "destinyId": "4611686018429732011",
-          "name": "kevmanx"
+          "name": "kevmanx",
+          "class": "Hunter",
+          "captain": true
         },
         {
           "destinyId": "4611686018438304393",
-          "name": "Greggoth"
+          "name": "Greggoth",
+          "class": "Warlock"
         },
         {
           "destinyId": "4611686018435769931",
-          "name": "teawithtanya"
+          "name": "teawithtanya",
+          "class": "Titan"
         },
         {
           "destinyId": "4611686018437081761",
-          "name": "Katz 29M"
+          "name": "Katz 29M",
+          "class": "Hunter"
         }
       ]
     }
