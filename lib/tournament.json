@@ -198,30 +198,30 @@
       {
         "alpha": {
           "id": "E",
-          "score": -1
+          "score": 2
         },
         "bravo": {
           "id": "B",
-          "score": -1
+          "score": 1
         },
         "games": [
           {
             "playlist": "Skirmish",
             "map": "The Timekeeper",
             "modifier": "multi-tool",
-            "id": ""
+            "id": "5901474435"
           },
           {
             "playlist": "Elimination",
             "map": "The Drifter",
             "modifier": "praise-sun",
-            "id": ""
+            "id": "5901494241"
           },
           {
             "playlist": "Salvage",
             "map": "Exodus Blue",
             "modifier": "electric-boogaloo",
-            "id": ""
+            "id": "5901506979"
           }
         ]
       },
