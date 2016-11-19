@@ -168,30 +168,30 @@
       {
         "alpha": {
           "id": "F",
-          "score": -1
+          "score": 1
         },
         "bravo": {
           "id": "A",
-          "score": -1
+          "score": 2
         },
         "games": [
           {
             "playlist": "Skirmish",
             "map": "Shores of Time",
             "modifier": "melting-pot",
-            "id": ""
+            "id": "5907425639"
           },
           {
             "playlist": "Elimination",
             "map": "Bannerfall",
             "modifier": "electric-boogaloo",
-            "id": ""
+            "id": "5907442384"
           },
           {
             "playlist": "Salvage",
             "map": "Rusted Lands",
             "modifier": "multi-tool",
-            "id": ""
+            "id": "5907467195"
           }
         ]
       },
@@ -260,30 +260,30 @@
       {
         "alpha": {
           "id": "E",
-          "score": -1
+          "score": 1
         },
         "bravo": {
           "id": "A",
-          "score": -1
+          "score": 2
         },
         "games": [
           {
             "playlist": "Skirmish",
             "map": "Memento",
             "modifier": "stormtroopers",
-            "id": ""
+            "id": "5907292435"
           },
           {
             "playlist": "Elimination",
             "map": "Bannerfall",
             "modifier": "inferno",
-            "id": ""
+            "id": "5907345268"
           },
           {
             "playlist": "Salvage",
             "map": "Blind Watch",
             "modifier": "multi-tool",
-            "id": ""
+            "id": "5907378431"
           }
         ]
       },
@@ -627,16 +627,16 @@
   ],
   "rankings": [
     {
-      "team": "E",
-      "wins": 1,
+      "team": "A",
+      "wins": 2,
       "losses": 0,
-      "gamesWon": 2
+      "gamesWon": 4
     },
     {
-      "team": "A",
-      "wins": 0,
-      "losses": 0,
-      "gamesWon": 0
+      "team": "E",
+      "wins": 1,
+      "losses": 1,
+      "gamesWon": 3
     },
     {
       "team": "C",
@@ -651,13 +651,13 @@
       "gamesWon": 0
     },
     {
-      "team": "F",
+      "team": "B",
       "wins": 0,
-      "losses": 0,
-      "gamesWon": 0
+      "losses": 1,
+      "gamesWon": 1
     },
     {
-      "team": "B",
+      "team": "F",
       "wins": 0,
       "losses": 1,
       "gamesWon": 1
