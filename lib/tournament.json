@@ -625,6 +625,44 @@
       }
     ]
   ],
+  "rankings": [
+    {
+      "team": "E",
+      "wins": 1,
+      "losses": 0,
+      "gamesWon": 2
+    },
+    {
+      "team": "A",
+      "wins": 0,
+      "losses": 0,
+      "gamesWon": 0
+    },
+    {
+      "team": "C",
+      "wins": 0,
+      "losses": 0,
+      "gamesWon": 0
+    },
+    {
+      "team": "D",
+      "wins": 0,
+      "losses": 0,
+      "gamesWon": 0
+    },
+    {
+      "team": "F",
+      "wins": 0,
+      "losses": 0,
+      "gamesWon": 0
+    },
+    {
+      "team": "B",
+      "wins": 0,
+      "losses": 1,
+      "gamesWon": 1
+    }
+  ],
   "modifiers": [
     {
       "id": "melting-pot",
