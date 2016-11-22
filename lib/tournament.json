@@ -231,30 +231,30 @@
         {
           "alpha": {
             "id": "D",
-            "score": -1
+            "score": 2
           },
           "bravo": {
             "id": "C",
-            "score": -1
+            "score": 1
           },
           "games": [
             {
               "playlist": "Skirmish",
               "map": "Memento",
               "modifier": "stormtroopers",
-              "id": ""
+              "id": "5906959311"
             },
             {
               "playlist": "Elimination",
               "map": "The Drifter",
               "modifier": "standard-issue",
-              "id": ""
+              "id": "5906998263"
             },
             {
               "playlist": "Salvage",
               "map": "The Last Exit",
               "modifier": "electric-boogaloo",
-              "id": ""
+              "id": "5907036664"
             }
           ]
         }
@@ -363,30 +363,30 @@
         {
           "alpha": {
             "id": "A",
-            "score": -1
+            "score": 2
           },
           "bravo": {
             "id": "D",
-            "score": -1
+            "score": 1
           },
           "games": [
             {
               "playlist": "Elimination",
               "map": "Burning Shrine",
               "modifier": "multi-tool",
-              "id": ""
+              "id": "5914053967"
             },
             {
               "playlist": "Skirmish",
               "map": "Anomaly",
               "modifier": "standard-issue",
-              "id": ""
+              "id": "5914100226"
             },
             {
               "playlist": "Salvage",
               "map": "Blind Watch",
               "modifier": "praise-sun",
-              "id": ""
+              "id": "5914146387"
             }
           ]
         },
@@ -648,9 +648,15 @@
   "rankings": [
     {
       "team": "A",
-      "wins": 2,
+      "wins": 3,
       "losses": 0,
-      "gamesWon": 4
+      "gamesWon": 6
+    },
+    {
+      "team": "D",
+      "wins": 1,
+      "losses": 1,
+      "gamesWon": 3
     },
     {
       "team": "E",
@@ -659,19 +665,13 @@
       "gamesWon": 3
     },
     {
-      "team": "C",
-      "wins": 0,
-      "losses": 0,
-      "gamesWon": 0
-    },
-    {
-      "team": "D",
-      "wins": 0,
-      "losses": 0,
-      "gamesWon": 0
-    },
-    {
       "team": "B",
+      "wins": 0,
+      "losses": 1,
+      "gamesWon": 1
+    },
+    {
+      "team": "C",
       "wins": 0,
       "losses": 1,
       "gamesWon": 1
