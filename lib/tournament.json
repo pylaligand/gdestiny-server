@@ -459,30 +459,30 @@
         {
           "alpha": {
             "id": "C",
-            "score": -1
+            "score": 1
           },
           "bravo": {
             "id": "A",
-            "score": -1
+            "score": 2
           },
           "games": [
             {
               "playlist": "Salvage",
               "map": "The Dungeons",
               "modifier": "stormtroopers",
-              "id": ""
+              "id": "5942528213"
             },
             {
               "playlist": "Elimination",
               "map": "Asylum",
               "modifier": "dark-side",
-              "id": ""
+              "id": "5942544030"
             },
             {
               "playlist": "Skirmish",
               "map": "Crossroads",
               "modifier": "multi-tool",
-              "id": ""
+              "id": "5942557373"
             }
           ]
         },
@@ -519,30 +519,30 @@
         {
           "alpha": {
             "id": "F",
-            "score": -1
+            "score": 2
           },
           "bravo": {
             "id": "E",
-            "score": -1
+            "score": 1
           },
           "games": [
             {
               "playlist": "Skirmish",
               "map": "Crossroads",
               "modifier": "stormtroopers",
-              "id": ""
+              "id": "5946143575"
             },
             {
               "playlist": "Salvage",
               "map": "Exodus Blue",
               "modifier": "standard-issue",
-              "id": ""
+              "id": "5946156670"
             },
             {
               "playlist": "Elimination",
               "map": "Floating Gardens",
               "modifier": "multi-tool",
-              "id": ""
+              "id": "5946178191"
             }
           ]
         }
@@ -555,30 +555,30 @@
         {
           "alpha": {
             "id": "A",
-            "score": -1
+            "score": 2
           },
           "bravo": {
             "id": "B",
-            "score": -1
+            "score": 1
           },
           "games": [
             {
               "playlist": "Elimination",
               "map": "Pantheon",
               "modifier": "melting-pot",
-              "id": ""
+              "id": "5944634104"
             },
             {
               "playlist": "Salvage",
               "map": "The Last Exit",
               "modifier": "multi-tool",
-              "id": ""
+              "id": "5944651724"
             },
             {
               "playlist": "Skirmish",
               "map": "Widow's Court",
               "modifier": "stormtroopers",
-              "id": ""
+              "id": "5944667372"
             }
           ]
         },
@@ -648,9 +648,9 @@
   "rankings": [
     {
       "team": "A",
-      "wins": 3,
+      "wins": 5,
       "losses": 0,
-      "gamesWon": 6
+      "gamesWon": 10
     },
     {
       "team": "D",
@@ -659,28 +659,28 @@
       "gamesWon": 3
     },
     {
-      "team": "E",
+      "team": "F",
       "wins": 1,
       "losses": 1,
       "gamesWon": 3
     },
     {
+      "team": "E",
+      "wins": 1,
+      "losses": 2,
+      "gamesWon": 4
+    },
+    {
       "team": "B",
       "wins": 0,
-      "losses": 1,
-      "gamesWon": 1
+      "losses": 2,
+      "gamesWon": 2
     },
     {
       "team": "C",
       "wins": 0,
-      "losses": 1,
-      "gamesWon": 1
-    },
-    {
-      "team": "F",
-      "wins": 0,
-      "losses": 1,
-      "gamesWon": 1
+      "losses": 2,
+      "gamesWon": 2
     }
   ],
   "modifiers": [
