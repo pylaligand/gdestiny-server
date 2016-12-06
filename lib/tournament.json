@@ -423,30 +423,30 @@
         {
           "alpha": {
             "id": "B",
-            "score": -1
+            "score": 1
           },
           "bravo": {
             "id": "F",
-            "score": -1
+            "score": 2
           },
           "games": [
             {
               "playlist": "Skirmish",
               "map": "Shores of Time",
               "modifier": "melting-pot",
-              "id": ""
+              "id": "5957835166"
             },
             {
               "playlist": "Elimination",
               "map": "Floating Gardens",
               "modifier": "praise-sun",
-              "id": ""
+              "id": "5957853685"
             },
             {
               "playlist": "Salvage",
               "map": "The Dungeons",
               "modifier": "standard-issue",
-              "id": ""
+              "id": "5957876495"
             }
           ]
         }
@@ -653,13 +653,13 @@
       "gamesWon": 10
     },
     {
-      "team": "D",
-      "wins": 1,
+      "team": "F",
+      "wins": 2,
       "losses": 1,
-      "gamesWon": 3
+      "gamesWon": 5
     },
     {
-      "team": "F",
+      "team": "D",
       "wins": 1,
       "losses": 1,
       "gamesWon": 3
@@ -671,16 +671,16 @@
       "gamesWon": 4
     },
     {
-      "team": "B",
+      "team": "C",
       "wins": 0,
       "losses": 2,
       "gamesWon": 2
     },
     {
-      "team": "C",
+      "team": "B",
       "wins": 0,
-      "losses": 2,
-      "gamesWon": 2
+      "losses": 3,
+      "gamesWon": 3
     }
   ],
   "modifiers": [
