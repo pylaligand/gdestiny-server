@@ -489,30 +489,30 @@
         {
           "alpha": {
             "id": "B",
-            "score": -1
+            "score": 2
           },
           "bravo": {
             "id": "D",
-            "score": -1
+            "score": 1
           },
           "games": [
             {
               "playlist": "Elimination",
               "map": "Burning Shrine",
               "modifier": "praise-sun",
-              "id": ""
+              "id": "5968618053"
             },
             {
               "playlist": "Skirmish",
               "map": "Anomaly",
               "modifier": "inferno",
-              "id": ""
+              "id": "5968671096"
             },
             {
               "playlist": "Salvage",
               "map": "Twilight Gap",
               "modifier": "standard-issue",
-              "id": ""
+              "id": "5968712152"
             }
           ]
         },
@@ -661,8 +661,8 @@
     {
       "team": "D",
       "wins": 1,
-      "losses": 1,
-      "gamesWon": 3
+      "losses": 2,
+      "gamesWon": 4
     },
     {
       "team": "E",
@@ -671,16 +671,16 @@
       "gamesWon": 4
     },
     {
+      "team": "B",
+      "wins": 1,
+      "losses": 3,
+      "gamesWon": 5
+    },
+    {
       "team": "C",
       "wins": 0,
       "losses": 2,
       "gamesWon": 2
-    },
-    {
-      "team": "B",
-      "wins": 0,
-      "losses": 3,
-      "gamesWon": 3
     }
   ],
   "modifiers": [
