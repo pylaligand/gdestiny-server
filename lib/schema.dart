@@ -8,4 +8,5 @@ class Schema {
   static const MAIN_MOT_PROGRESS = 'mot_progress';
   static const MAIN_PVP_KD = 'pvp_kd';
   static const MAIN_PVP_WIN_PERCENTAGE = 'pvp_win_percentage';
+  static const MAIN_LIGHTHOUSE_TRIPS = 'lighthouse_trips';
 }

@@ -11,6 +11,7 @@ import 'package:shelf_route/shelf_route.dart';
 
 import '../lib/grimoire.dart' as grimoire;
 import '../lib/kd.dart' as kd;
+import '../lib/lighthouse.dart' as lighthouse;
 import '../lib/params.dart' as param;
 import '../lib/summary.dart' as summary;
 import '../lib/tourney.dart' as tourney;
@@ -48,7 +49,8 @@ main() {
     ..get('/summary', summary.handle)
     ..get('/kd', kd.handle)
     ..get('/wins', wins.handle)
-    ..get('/tourney', tourney.handle);
+    ..get('/tourney', tourney.handle)
+    ..get('/lighthouse', lighthouse.handle);
 
   final handler = const shelf.Pipeline()
       .addMiddleware(
