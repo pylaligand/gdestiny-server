@@ -60,7 +60,7 @@
       "players": [
         {
           "destinyId": "4611686018431738387",
-          "name": "xx New Guy xx",
+          "name": "GuyQ",
           "class": "Titan"
         },
         {
@@ -327,30 +327,30 @@
         {
           "alpha": {
             "id": "B",
-            "score": -1
+            "score": 3
           },
           "bravo": {
             "id": "C",
-            "score": -1
+            "score": 0
           },
           "games": [
             {
               "playlist": "Skirmish",
               "map": "Shores of Time",
               "modifier": "dark-side",
-              "id": ""
+              "id": "5973862099"
             },
             {
               "playlist": "Salvage",
               "map": "Rusted Lands",
               "modifier": "standard-issue",
-              "id": ""
+              "id": "5973881522"
             },
             {
               "playlist": "Elimination",
               "map": "Burning Shrine",
               "modifier": "multi-tool",
-              "id": ""
+              "id": "5973903972"
             }
           ]
         }
@@ -659,6 +659,12 @@
       "gamesWon": 5
     },
     {
+      "team": "B",
+      "wins": 2,
+      "losses": 3,
+      "gamesWon": 8
+    },
+    {
       "team": "D",
       "wins": 1,
       "losses": 2,
@@ -671,15 +677,9 @@
       "gamesWon": 4
     },
     {
-      "team": "B",
-      "wins": 1,
-      "losses": 3,
-      "gamesWon": 5
-    },
-    {
       "team": "C",
       "wins": 0,
-      "losses": 2,
+      "losses": 3,
       "gamesWon": 2
     }
   ],
@@ -707,7 +707,7 @@
     {
       "id": "multi-tool",
       "name": "Multi-tool",
-      "description": "Teams may only use at most one weapon of each type (one person cannot use heavy at all)"
+      "description": "Teams may only use at most one weapon of each type (one person has to use Sleeper Simulant!)"
     },
     {
       "id": "stormtroopers",
