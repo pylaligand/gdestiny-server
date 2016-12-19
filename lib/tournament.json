@@ -297,30 +297,30 @@
         {
           "alpha": {
             "id": "D",
-            "score": -1
+            "score": 0
           },
           "bravo": {
             "id": "F",
-            "score": -1
+            "score": 3
           },
           "games": [
             {
               "playlist": "Elimination",
               "map": "Pantheon",
               "modifier": "inferno",
-              "id": ""
+              "id": "6002588696"
             },
             {
               "playlist": "Skirmish",
               "map": "Anomaly",
               "modifier": "dark-side",
-              "id": ""
+              "id": "6002633336"
             },
             {
               "playlist": "Salvage",
               "map": "Twilight Gap",
               "modifier": "melting-pot",
-              "id": ""
+              "id": "6002672332"
             }
           ]
         },
@@ -654,9 +654,9 @@
     },
     {
       "team": "F",
-      "wins": 2,
+      "wins": 3,
       "losses": 1,
-      "gamesWon": 5
+      "gamesWon": 8
     },
     {
       "team": "B",
@@ -665,15 +665,15 @@
       "gamesWon": 8
     },
     {
-      "team": "D",
+      "team": "E",
       "wins": 1,
       "losses": 2,
       "gamesWon": 4
     },
     {
-      "team": "E",
+      "team": "D",
       "wins": 1,
-      "losses": 2,
+      "losses": 3,
       "gamesWon": 4
     },
     {
