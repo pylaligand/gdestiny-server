@@ -615,30 +615,30 @@
         {
           "alpha": {
             "id": "D",
-            "score": -1
+            "score": 3
           },
           "bravo": {
             "id": "E",
-            "score": -1
+            "score": 0
           },
           "games": [
             {
               "playlist": "Salvage",
               "map": "Thieve's Den",
               "modifier": "stormtroopers",
-              "id": ""
+              "id": "6010099318"
             },
             {
               "playlist": "Skirmish",
               "map": "The Timekeeper",
               "modifier": "standard-issue",
-              "id": ""
+              "id": "6010142726"
             },
             {
               "playlist": "Elimination",
               "map": "Frontier",
               "modifier": "electric-boogaloo",
-              "id": ""
+              "id": "6010181193"
             }
           ]
         }
@@ -665,13 +665,13 @@
       "gamesWon": 8
     },
     {
-      "team": "E",
-      "wins": 1,
-      "losses": 2,
-      "gamesWon": 4
+      "team": "D",
+      "wins": 2,
+      "losses": 3,
+      "gamesWon": 7
     },
     {
-      "team": "D",
+      "team": "E",
       "wins": 1,
       "losses": 3,
       "gamesWon": 4
