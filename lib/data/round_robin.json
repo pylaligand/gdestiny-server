@@ -420,30 +420,30 @@
       {
         "alpha": {
           "id": "F",
-          "score": -1
+          "score": 1
         },
         "bravo": {
           "id": "C",
-          "score": -1
+          "score": 2
         },
         "games": [
           {
             "playlist": "Skirmish",
             "map": "Anomaly",
             "modifier": "electric-boogaloo",
-            "id": ""
+            "id": "6017575206"
           },
           {
             "playlist": "Salvage",
             "map": "Exodus Blue",
             "modifier": "standard-issue",
-            "id": ""
+            "id": "6017602975"
           },
           {
             "playlist": "Elimination",
             "map": "The Cauldron",
             "modifier": "praise-sun",
-            "id": ""
+            "id": "6017636194"
           }
         ]
       },
