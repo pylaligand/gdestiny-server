@@ -1,0 +1,482 @@
+[
+  {
+    "name": "Round 1",
+    "index": 0,
+    "matches": [
+      {
+        "alpha": {
+          "id": "F",
+          "score": 1
+        },
+        "bravo": {
+          "id": "A",
+          "score": 2
+        },
+        "games": [
+          {
+            "playlist": "Skirmish",
+            "map": "Shores of Time",
+            "modifier": "melting-pot",
+            "id": "5907425639"
+          },
+          {
+            "playlist": "Elimination",
+            "map": "Bannerfall",
+            "modifier": "electric-boogaloo",
+            "id": "5907442384"
+          },
+          {
+            "playlist": "Salvage",
+            "map": "Rusted Lands",
+            "modifier": "multi-tool",
+            "id": "5907467195"
+          }
+        ]
+      },
+      {
+        "alpha": {
+          "id": "E",
+          "score": 2
+        },
+        "bravo": {
+          "id": "B",
+          "score": 1
+        },
+        "games": [
+          {
+            "playlist": "Skirmish",
+            "map": "The Timekeeper",
+            "modifier": "multi-tool",
+            "id": "5901474435"
+          },
+          {
+            "playlist": "Elimination",
+            "map": "The Drifter",
+            "modifier": "praise-sun",
+            "id": "5901494241"
+          },
+          {
+            "playlist": "Salvage",
+            "map": "Exodus Blue",
+            "modifier": "electric-boogaloo",
+            "id": "5901506979"
+          }
+        ]
+      },
+      {
+        "alpha": {
+          "id": "D",
+          "score": 2
+        },
+        "bravo": {
+          "id": "C",
+          "score": 1
+        },
+        "games": [
+          {
+            "playlist": "Skirmish",
+            "map": "Memento",
+            "modifier": "stormtroopers",
+            "id": "5906959311"
+          },
+          {
+            "playlist": "Elimination",
+            "map": "The Drifter",
+            "modifier": "standard-issue",
+            "id": "5906998263"
+          },
+          {
+            "playlist": "Salvage",
+            "map": "The Last Exit",
+            "modifier": "electric-boogaloo",
+            "id": "5907036664"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Round 2",
+    "index": 1,
+    "matches": [
+      {
+        "alpha": {
+          "id": "E",
+          "score": 1
+        },
+        "bravo": {
+          "id": "A",
+          "score": 2
+        },
+        "games": [
+          {
+            "playlist": "Skirmish",
+            "map": "Memento",
+            "modifier": "stormtroopers",
+            "id": "5907292435"
+          },
+          {
+            "playlist": "Elimination",
+            "map": "Bannerfall",
+            "modifier": "inferno",
+            "id": "5907345268"
+          },
+          {
+            "playlist": "Salvage",
+            "map": "Blind Watch",
+            "modifier": "multi-tool",
+            "id": "5907378431"
+          }
+        ]
+      },
+      {
+        "alpha": {
+          "id": "D",
+          "score": 0
+        },
+        "bravo": {
+          "id": "F",
+          "score": 3
+        },
+        "games": [
+          {
+            "playlist": "Elimination",
+            "map": "Pantheon",
+            "modifier": "inferno",
+            "id": "6002588696"
+          },
+          {
+            "playlist": "Skirmish",
+            "map": "Anomaly",
+            "modifier": "dark-side",
+            "id": "6002633336"
+          },
+          {
+            "playlist": "Salvage",
+            "map": "Twilight Gap",
+            "modifier": "melting-pot",
+            "id": "6002672332"
+          }
+        ]
+      },
+      {
+        "alpha": {
+          "id": "B",
+          "score": 3
+        },
+        "bravo": {
+          "id": "C",
+          "score": 0
+        },
+        "games": [
+          {
+            "playlist": "Skirmish",
+            "map": "Shores of Time",
+            "modifier": "dark-side",
+            "id": "5973862099"
+          },
+          {
+            "playlist": "Salvage",
+            "map": "Rusted Lands",
+            "modifier": "standard-issue",
+            "id": "5973881522"
+          },
+          {
+            "playlist": "Elimination",
+            "map": "Burning Shrine",
+            "modifier": "multi-tool",
+            "id": "5973903972"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Round 3",
+    "index": 2,
+    "matches": [
+      {
+        "alpha": {
+          "id": "A",
+          "score": 2
+        },
+        "bravo": {
+          "id": "D",
+          "score": 1
+        },
+        "games": [
+          {
+            "playlist": "Elimination",
+            "map": "Burning Shrine",
+            "modifier": "multi-tool",
+            "id": "5914053967"
+          },
+          {
+            "playlist": "Skirmish",
+            "map": "Anomaly",
+            "modifier": "standard-issue",
+            "id": "5914100226"
+          },
+          {
+            "playlist": "Salvage",
+            "map": "Blind Watch",
+            "modifier": "praise-sun",
+            "id": "5914146387"
+          }
+        ]
+      },
+      {
+        "alpha": {
+          "id": "E",
+          "score": -1
+        },
+        "bravo": {
+          "id": "C",
+          "score": -1
+        },
+        "games": [
+          {
+            "playlist": "Elimination",
+            "map": "Pantheon",
+            "modifier": "stormtroopers",
+            "id": ""
+          },
+          {
+            "playlist": "Skirmish",
+            "map": "Shores of Time",
+            "modifier": "inferno",
+            "id": ""
+          },
+          {
+            "playlist": "Salvage",
+            "map": "Firebase Delphi",
+            "modifier": "multi-tool",
+            "id": ""
+          }
+        ]
+      },
+      {
+        "alpha": {
+          "id": "B",
+          "score": 1
+        },
+        "bravo": {
+          "id": "F",
+          "score": 2
+        },
+        "games": [
+          {
+            "playlist": "Skirmish",
+            "map": "Shores of Time",
+            "modifier": "melting-pot",
+            "id": "5957835166"
+          },
+          {
+            "playlist": "Elimination",
+            "map": "Floating Gardens",
+            "modifier": "praise-sun",
+            "id": "5957853685"
+          },
+          {
+            "playlist": "Salvage",
+            "map": "The Dungeons",
+            "modifier": "standard-issue",
+            "id": "5957876495"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Round 4",
+    "index": 3,
+    "matches": [
+      {
+        "alpha": {
+          "id": "C",
+          "score": 1
+        },
+        "bravo": {
+          "id": "A",
+          "score": 2
+        },
+        "games": [
+          {
+            "playlist": "Salvage",
+            "map": "The Dungeons",
+            "modifier": "stormtroopers",
+            "id": "5942528213"
+          },
+          {
+            "playlist": "Elimination",
+            "map": "Asylum",
+            "modifier": "dark-side",
+            "id": "5942544030"
+          },
+          {
+            "playlist": "Skirmish",
+            "map": "Crossroads",
+            "modifier": "multi-tool",
+            "id": "5942557373"
+          }
+        ]
+      },
+      {
+        "alpha": {
+          "id": "B",
+          "score": 2
+        },
+        "bravo": {
+          "id": "D",
+          "score": 1
+        },
+        "games": [
+          {
+            "playlist": "Elimination",
+            "map": "Burning Shrine",
+            "modifier": "praise-sun",
+            "id": "5968618053"
+          },
+          {
+            "playlist": "Skirmish",
+            "map": "Anomaly",
+            "modifier": "inferno",
+            "id": "5968671096"
+          },
+          {
+            "playlist": "Salvage",
+            "map": "Twilight Gap",
+            "modifier": "standard-issue",
+            "id": "5968712152"
+          }
+        ]
+      },
+      {
+        "alpha": {
+          "id": "F",
+          "score": 2
+        },
+        "bravo": {
+          "id": "E",
+          "score": 1
+        },
+        "games": [
+          {
+            "playlist": "Skirmish",
+            "map": "Crossroads",
+            "modifier": "stormtroopers",
+            "id": "5946143575"
+          },
+          {
+            "playlist": "Salvage",
+            "map": "Exodus Blue",
+            "modifier": "standard-issue",
+            "id": "5946156670"
+          },
+          {
+            "playlist": "Elimination",
+            "map": "Floating Gardens",
+            "modifier": "multi-tool",
+            "id": "5946178191"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Round 5",
+    "index": 4,
+    "matches": [
+      {
+        "alpha": {
+          "id": "A",
+          "score": 2
+        },
+        "bravo": {
+          "id": "B",
+          "score": 1
+        },
+        "games": [
+          {
+            "playlist": "Elimination",
+            "map": "Pantheon",
+            "modifier": "melting-pot",
+            "id": "5944634104"
+          },
+          {
+            "playlist": "Salvage",
+            "map": "The Last Exit",
+            "modifier": "multi-tool",
+            "id": "5944651724"
+          },
+          {
+            "playlist": "Skirmish",
+            "map": "Widow's Court",
+            "modifier": "stormtroopers",
+            "id": "5944667372"
+          }
+        ]
+      },
+      {
+        "alpha": {
+          "id": "F",
+          "score": -1
+        },
+        "bravo": {
+          "id": "C",
+          "score": -1
+        },
+        "games": [
+          {
+            "playlist": "Skirmish",
+            "map": "Anomaly",
+            "modifier": "electric-boogaloo",
+            "id": ""
+          },
+          {
+            "playlist": "Salvage",
+            "map": "Exodus Blue",
+            "modifier": "standard-issue",
+            "id": ""
+          },
+          {
+            "playlist": "Elimination",
+            "map": "The Cauldron",
+            "modifier": "praise-sun",
+            "id": ""
+          }
+        ]
+      },
+      {
+        "alpha": {
+          "id": "D",
+          "score": 3
+        },
+        "bravo": {
+          "id": "E",
+          "score": 0
+        },
+        "games": [
+          {
+            "playlist": "Salvage",
+            "map": "Thieve's Den",
+            "modifier": "stormtroopers",
+            "id": "6010099318"
+          },
+          {
+            "playlist": "Skirmish",
+            "map": "The Timekeeper",
+            "modifier": "standard-issue",
+            "id": "6010142726"
+          },
+          {
+            "playlist": "Elimination",
+            "map": "Frontier",
+            "modifier": "electric-boogaloo",
+            "id": "6010181193"
+          }
+        ]
+      }
+    ]
+  }
+]

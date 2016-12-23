@@ -1,0 +1,76 @@
+{
+  "modifiers": [
+    {
+      "id": "melting-pot",
+      "name": "Melting Pot",
+      "description": "Teams must have at least one subclass of each element"
+    },
+    {
+      "id": "praise-sun",
+      "name": "Praise the Sun",
+      "description": "All players must use a solar subclass"
+    },
+    {
+      "id": "electric-boogaloo",
+      "name": "Electric Boogaloo",
+      "description": "All players must use an arc subclass"
+    },
+    {
+      "id": "dark-side",
+      "name": "The Dark Side",
+      "description": "All players must use a void subclass"
+    },
+    {
+      "id": "multi-tool",
+      "name": "Multi-tool",
+      "description": "Teams may only use at most one weapon of each type (one person has to use Sleeper Simulant!)"
+    },
+    {
+      "id": "stormtroopers",
+      "name": "Stormtroopers",
+      "description": "All team members must pick the same weapon types (e.g. auto - shotgun - sword)"
+    },
+    {
+      "id": "standard-issue",
+      "name": "Standard Issue",
+      "description": "No exotic equipment (weapons and armor) is allowed"
+    },
+    {
+      "id": "inferno",
+      "name": "Inferno",
+      "description": "The standard Destiny Inferno modifier"
+    }
+  ],
+  "maps": {
+    "Salvage": [
+      "Twilight Gap",
+      "Rusted Lands",
+      "Exodus Blue",
+      "Blind Watch",
+      "Firebase Delphi",
+      "Thieve's Den",
+      "The Last Exit",
+      "The Dungeons"
+    ],
+    "Elimination": [
+      "Bannerfall",
+      "Pantheon",
+      "Frontier",
+      "The Cauldron",
+      "Asylum",
+      "Burning Shrine",
+      "The Drifter",
+      "Floating Gardens"
+    ],
+    "Skirmish": [
+      "Memento",
+      "Anomaly",
+      "Widow's Court",
+      "Black Shield",
+      "Crossroads",
+      "Shores of Time",
+      "The Timekeeper",
+      "Vertigo"
+    ]
+  }
+}

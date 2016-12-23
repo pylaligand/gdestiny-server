@@ -1,0 +1,164 @@
+[
+  {
+    "id": "A",
+    "name": "Game of Thorns",
+    "players": [
+      {
+        "destinyId": "4611686018438523541",
+        "name": "fathert0m",
+        "class": "Titan",
+        "captain": true
+      },
+      {
+        "destinyId": "4611686018444174393",
+        "name": "mscherme",
+        "class": "Hunter"
+      },
+      {
+        "destinyId": "4611686018442068988",
+        "name": "hawkbatt",
+        "class": "Warlock"
+      },
+      {
+        "destinyId": "4611686018437138107",
+        "name": "jjsilo",
+        "class": "Hunter"
+      }
+    ]
+  },
+  {
+    "id": "B",
+    "name": "Felwinter is Coming",
+    "players": [
+      {
+        "destinyId": "4611686018442080876",
+        "name": "etennis07",
+        "class": "Titan",
+        "captain": true
+      },
+      {
+        "destinyId": "4611686018444775900",
+        "name": "DJG0509",
+        "class": "Hunter"
+      },
+      {
+        "destinyId": "4611686018446138239",
+        "name": "n0rmaln0rman",
+        "class": "Hunter"
+      },
+      {
+        "destinyId": "4611686018433876772",
+        "name": "Bionyx187",
+        "class": "Warlock"
+      }
+    ]
+  },
+  {
+    "id": "C",
+    "name": "Team Blueberry",
+    "players": [
+      {
+        "destinyId": "4611686018431738387",
+        "name": "GuyQ",
+        "class": "Titan"
+      },
+      {
+        "destinyId": "4611686018433234607",
+        "name": "badassler",
+        "class": "Hunter",
+        "captain": true
+      },
+      {
+        "destinyId": "4611686018453306041",
+        "name": "Aizdaman",
+        "class": "Warlock"
+      },
+      {
+        "destinyId": "4611686018434229973",
+        "name": "ViperSSD",
+        "class": "Titan"
+      }
+    ]
+  },
+  {
+    "id": "D",
+    "name": "Shotgun Buffalo's",
+    "players": [
+      {
+        "destinyId": "4611686018438083930",
+        "name": "Mauddib1017",
+        "class": "Warlock",
+        "captain": true
+      },
+      {
+        "destinyId": "4611686018430470066",
+        "name": "Dreamforge",
+        "class": "Hunter"
+      },
+      {
+        "destinyId": "4611686018442949590",
+        "name": "chiva online",
+        "class": "Warlock"
+      },
+      {
+        "destinyId": "4611686018431858273",
+        "name": "Sch00t3r",
+        "class": "Titan"
+      }
+    ]
+  },
+  {
+    "id": "E",
+    "name": "Team /dev/null",
+    "players": [
+      {
+        "destinyId": "4611686018429620157",
+        "name": "Lord Infernus",
+        "class": "Titan"
+      },
+      {
+        "destinyId": "4611686018450798315",
+        "name": "TXT4NRG",
+        "class": "Warlock",
+        "captain": true
+      },
+      {
+        "destinyId": "4611686018452292833",
+        "name": "TheMikhail",
+        "class": "Hunter"
+      },
+      {
+        "destinyId": "4611686018429731545",
+        "name": "ME4T",
+        "class": "Warlock"
+      }
+    ]
+  },
+  {
+    "id": "F",
+    "name": "Team Bubblegum",
+    "players": [
+      {
+        "destinyId": "4611686018429732011",
+        "name": "kevmanx",
+        "class": "Hunter",
+        "captain": true
+      },
+      {
+        "destinyId": "4611686018438304393",
+        "name": "Greggoth",
+        "class": "Warlock"
+      },
+      {
+        "destinyId": "4611686018435769931",
+        "name": "teawithtanya",
+        "class": "Titan"
+      },
+      {
+        "destinyId": "4611686018437081761",
+        "name": "Katz 29M",
+        "class": "Hunter"
+      }
+    ]
+  }
+]

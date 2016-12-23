@@ -1,0 +1,38 @@
+[
+  {
+    "team": "A",
+    "wins": 5,
+    "losses": 0,
+    "gamesWon": 10
+  },
+  {
+    "team": "F",
+    "wins": 3,
+    "losses": 1,
+    "gamesWon": 8
+  },
+  {
+    "team": "B",
+    "wins": 2,
+    "losses": 3,
+    "gamesWon": 8
+  },
+  {
+    "team": "D",
+    "wins": 2,
+    "losses": 3,
+    "gamesWon": 7
+  },
+  {
+    "team": "E",
+    "wins": 1,
+    "losses": 3,
+    "gamesWon": 4
+  },
+  {
+    "team": "C",
+    "wins": 0,
+    "losses": 3,
+    "gamesWon": 2
+  }
+]
