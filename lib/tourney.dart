@@ -13,6 +13,7 @@ Future<shelf.Response> handle(shelf.Request request) async {
   mainContent['teams'] = _getJson('teams.json');
   mainContent['round-robin'] = _getJson('round_robin.json');
   mainContent['rankings'] = _getJson('rankings.json');
+  mainContent['elimination'] = _getJson('elimination.json');
   mainContent.addAll(_getJson('definitions.json'));
   final body = JSON.encode(mainContent);
   final headers = {'content-type': 'application/json'};

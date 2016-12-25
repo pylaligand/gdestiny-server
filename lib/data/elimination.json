@@ -1,0 +1,32 @@
+[
+  [
+    {
+      "alpha": "A",
+      "bye": true
+    },
+    {
+      "alpha": "D",
+      "bravo": "C"
+    },
+    {
+      "alpha": "B",
+      "bravo": "E"
+    },
+    {
+      "bravo": "F",
+      "bye": true
+    }
+  ],
+  [
+    {
+      "alpha": "A"
+    },
+    {
+      "bravo": "F"
+    }
+  ],
+  [
+    {
+    }
+  ]
+]
