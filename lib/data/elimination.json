@@ -12,7 +12,27 @@
       },
       "bravo": {
         "id": "C"
-      }
+      },
+      "games": [
+        {
+          "playlist": "Salvage",
+          "map": "The Last Exit",
+          "modifier": "praise-sun",
+          "id": ""
+        },
+        {
+          "playlist": "Skirmish",
+          "map": "The Timekeeper",
+          "modifier": "electric-boogaloo",
+          "id": ""
+        },
+        {
+          "playlist": "Elimination",
+          "map": "Burning Shrine",
+          "modifier": "stormtroopers",
+          "id": ""
+        }
+      ]
     },
     {
       "alpha": {
@@ -20,7 +40,27 @@
       },
       "bravo": {
         "id": "E"
-      }
+      },
+      "games": [
+        {
+          "playlist": "Skirmish",
+          "map": "Memento",
+          "modifier": "praise-sun",
+          "id": ""
+        },
+        {
+          "playlist": "Elimination",
+          "map": "Burning Shrine",
+          "modifier": "multi-tool",
+          "id": ""
+        },
+        {
+          "playlist": "Salvage",
+          "map": "Exodus Blue",
+          "modifier": "electric-boogaloo",
+          "id": ""
+        }
+      ]
     },
     {
       "alpha": {
@@ -33,16 +73,88 @@
     {
       "alpha": {
         "id": "A"
-      }
+      },
+      "games": [
+        {
+          "playlist": "Skirmish",
+          "map": "Crossroads",
+          "modifier": "inferno",
+          "id": ""
+        },
+        {
+          "playlist": "Elimination",
+          "map": "Floating Gardens",
+          "modifier": "multi-tool",
+          "id": ""
+        },
+        {
+          "playlist": "Salvage",
+          "map": "Firebase Delphi",
+          "modifier": "electric-boogaloo",
+          "id": ""
+        }
+      ]
     },
     {
       "bravo": {
         "id": "F"
-      }
+      },
+      "games": [
+        {
+          "playlist": "Skirmish",
+          "map": "Anomaly",
+          "modifier": "electric-boogaloo",
+          "id": ""
+        },
+        {
+          "playlist": "Salvage",
+          "map": "The Dungeons",
+          "modifier": "stormtroopers",
+          "id": ""
+        },
+        {
+          "playlist": "Elimination",
+          "map": "Asylum",
+          "modifier": "multi-tool",
+          "id": ""
+        }
+      ]
     }
   ],
   [
     {
+      "games": [
+        {
+          "playlist": "Skirmish",
+          "map": "Widow's Court",
+          "modifier": "dark-side",
+          "id": ""
+        },
+        {
+          "playlist": "Salvage",
+          "map": "Firebase Delphi",
+          "modifier": "melting-pot",
+          "id": ""
+        },
+        {
+          "playlist": "Elimination",
+          "map": "Floating Gardens",
+          "modifier": "inferno",
+          "id": ""
+        },
+        {
+          "playlist": "Skirmish",
+          "map": "The Timekeeper",
+          "modifier": "stormtroopers",
+          "id": ""
+        },
+        {
+          "playlist": "Salvage",
+          "map": "Firebase Delphi",
+          "modifier": "electric-boogaloo",
+          "id": ""
+        }
+      ]
     }
   ]
 ]
