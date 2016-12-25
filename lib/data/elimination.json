@@ -1,19 +1,31 @@
 [
   [
     {
-      "alpha": "A",
+      "alpha": {
+        "id": "A"
+      },
       "bye": true
     },
     {
-      "alpha": "D",
-      "bravo": "C"
+      "alpha": {
+        "id": "D"
+      },
+      "bravo": {
+        "id": "C"
+      }
     },
     {
-      "alpha": "B",
-      "bravo": "E"
+      "alpha": {
+        "id": "B"
+      },
+      "bravo": {
+        "id": "E"
+      }
     },
     {
-      "bravo": "F",
+      "bravo": {
+        "id": "F"
+      },
       "bye": true
     }
   ],
