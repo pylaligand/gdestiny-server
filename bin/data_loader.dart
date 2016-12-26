@@ -76,8 +76,8 @@ _createMainTable(Connection db, List<Guardian> guardians) async {
       '${Schema.MAIN_ON_XBOX} BOOLEAN, '
       '${Schema.MAIN_MOT_PROGRESS} BIGINT, '
       '${Schema.MAIN_PVP_KD} FLOAT4, '
-      '${Schema.MAIN_PVP_WIN_PERCENTAGE} INTEGER, '
-      '${Schema.MAIN_LIGHTHOUSE_TRIPS} INTEGER)');
+      '${Schema.MAIN_PVP_WIN_PERCENTAGE} BIGINT, '
+      '${Schema.MAIN_LIGHTHOUSE_TRIPS} BIGINT)');
   await Future.forEach(
       guardians,
       (Guardian guardian) async =>

@@ -31,6 +31,10 @@ Future<shelf.Response> handle(shelf.Request request) async {
       'xb': await _getAverageWinPercentage(db, true),
       'ps': await _getAverageWinPercentage(db, false)
     };
+    content['lighthouse_trips'] = {
+      'xb': await _getTotalLighthouseTrips(db, true),
+      'ps': await _getTotalLighthouseTrips(db, false)
+    };
   } finally {
     db.close();
   }
@@ -65,8 +69,8 @@ Future<double> _getAverageKd(Connection db, bool onXbox) async {
       .query(
           'SELECT AVG(${Schema.MAIN_PVP_KD}) FROM ${Schema.TABLE_MAIN} WHERE ${_getPlatformSelector(onXbox)} AND ${Schema.MAIN_PVP_KD}!=0')
       .first;
-  final String average = row[0];
-  return average != null ? (100 * num.parse(average)).round() / 100 : 0.0;
+  final double average = row[0];
+  return average != null ? (100 * average).round() / 100 : 0.0;
 }
 
 /// Returns the average win percentage for the given platform.
@@ -78,6 +82,15 @@ Future<int> _getAverageWinPercentage(Connection db, bool onXbox) async {
       .first;
   final String average = row[0];
   return average != null ? num.parse(average).round() : 0;
+}
+
+/// Returns the total number of Lighthouse trips for the given platform.
+Future<int> _getTotalLighthouseTrips(Connection db, bool onXbox) async {
+  final row = await db
+      .query(
+          'SELECT SUM(${Schema.MAIN_LIGHTHOUSE_TRIPS}) FROM ${Schema.TABLE_MAIN} WHERE ${_getPlatformSelector(onXbox)}')
+      .first;
+  return num.parse(row[0]);
 }
 
 String _getPlatformSelector(bool onXbox) {
