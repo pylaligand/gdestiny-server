@@ -35,6 +35,10 @@ Future<shelf.Response> handle(shelf.Request request) async {
       'xb': await _getTotalLighthouseTrips(db, true),
       'ps': await _getTotalLighthouseTrips(db, false)
     };
+    content['players'] = {
+      'xb': await _countPlayers(db, true),
+      'ps': await _countPlayers(db, false)
+    };
   } finally {
     db.close();
   }
@@ -91,6 +95,15 @@ Future<int> _getTotalLighthouseTrips(Connection db, bool onXbox) async {
           'SELECT SUM(${Schema.MAIN_LIGHTHOUSE_TRIPS}) FROM ${Schema.TABLE_MAIN} WHERE ${_getPlatformSelector(onXbox)}')
       .first;
   return num.parse(row[0]);
+}
+
+/// Returns the number of active players on the given platform.
+Future<int> _countPlayers(Connection db, bool onXbox) async {
+  final row = await db
+      .query(
+          'SELECT COUNT(*) FROM ${Schema.TABLE_MAIN} WHERE ${_getPlatformSelector(onXbox)}')
+      .first;
+  return row[0];
 }
 
 String _getPlatformSelector(bool onXbox) {
