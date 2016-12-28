@@ -25,14 +25,14 @@
   },
   {
     "team": "C",
-    "wins": 1,
+    "wins": 2,
     "losses": 3,
-    "gamesWon": 4
+    "gamesWon": 7
   },
   {
     "team": "E",
     "wins": 1,
-    "losses": 3,
+    "losses": 4,
     "gamesWon": 4
   }
 ]

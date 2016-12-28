@@ -228,30 +228,30 @@
       {
         "alpha": {
           "id": "E",
-          "score": -1
+          "score": 0
         },
         "bravo": {
           "id": "C",
-          "score": -1
+          "score": 3
         },
         "games": [
           {
             "playlist": "Elimination",
             "map": "Pantheon",
             "modifier": "stormtroopers",
-            "id": ""
+            "id": "6035485619"
           },
           {
             "playlist": "Skirmish",
             "map": "Shores of Time",
             "modifier": "inferno",
-            "id": ""
+            "id": "6035530296"
           },
           {
             "playlist": "Salvage",
             "map": "Firebase Delphi",
             "modifier": "multi-tool",
-            "id": ""
+            "id": "6035580781"
           }
         ]
       },
